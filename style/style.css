@@ -215,7 +215,57 @@ margin-bottom:20px;
     width:366px;
     border-radius:18px;
  }
+
+ /* training section */
  
+ .training-section{
+    color:white;
+    width:80%;
+    margin: 0 auto;
+ }
+ .training-text{
+    font-size:48px;
+    font-weight:900;
+    margin-bottom:20px;
+ }
+ .exercise-main{
+    
+ }
+ .exercise-first{
+    display:flex;
+ }
+ .exercise-second{
+    display:flex;
+ }
+ .training-p{
+     color: rgba(255, 255, 255, 0.5);;
+ }
+ .exercise-1{
+    width:320px;
+ }
+ .exercise-1-p{
+    margin-left:16px;
+    
+    
+ }
+ .exercise-2{
+    width:540px;
+    height:215px;
+ }
+ .exercise-3{
+    width:350px;
+    height:215px;
+
+ }
+ .exercise-4{
+    width:425px;
+ }
+ .exercise-5{
+    width:288px;
+ }
+ .exercise-6{
+    width:340px;
+ }
  /* 
 responsive media query for small device */
 @media  screen and (max-width:576px) {
@@ -242,8 +292,28 @@ responsive media query for small device */
 .banner{
     flex-direction:column;
 }
-.change-habits-child{
+.exercise-1{
+    width:205px;
+}
 
+
+.exercise-2{
+   width:200px;
+   height:138px;
+    
+}
+
+#exercise-3{
+display:none;
+}
+.exercise-4{
+    width:200px;
+}
+.exercise-5{
+    width:205px;
+}
+.exercise-6{
+    display:none;
 }
 }
 
