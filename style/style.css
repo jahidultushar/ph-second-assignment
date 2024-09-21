@@ -358,6 +358,69 @@ input{
     width:570px;
 }
 
+/* join our team section */
+.join-team{
+    color:white;
+    width:80%;
+    margin:0 auto;
+}
+.meet-team{
+  
+}
+.meet-team h4, p{
+ 
+    text-align:center;
+}
+.meet-team h4{
+    font-size:48px;
+    margin-bottom:20px;
+}
+.join-team p{
+color:rgba(255, 255, 255, 0.5);
+}
+
+.team-img img{
+    width:325px;
+    height:270px;
+    border-radius: 10px;
+    
+}
+/* 
+foooter section */
+.footer{
+    width:80%;
+    margin:0 auto;
+    color:white;
+    display:flex;
+    margin-top:80px;
+    justify-content: space-evenly;
+    margin-bottom:100px;
+}
+.fitness-logo{
+    width:450px;
+   text-align: left;
+}
+.fitness-logo p{
+    text-align: left;
+}
+.fitness-logo h5{
+    font-size:70px;
+    font-weight:800;
+    color:red;
+    margin-bottom:30px;
+    margin-top:10px;
+}
+.footer-child{
+    width:180px;
+}
+.footer-child h4{
+    font-size:32px;
+}
+.footer-child ul li{
+    list-style: none;
+    margin-top:12px;
+    color:rgba(255, 255, 255, 0.5);
+}
  /* 
 responsive media query for small device */
 @media  screen and (max-width:576px) {
@@ -372,10 +435,18 @@ responsive media query for small device */
 .change-habits-child,
 .running-section,
 .challenge-image-section,
-.table-main{
+.table-main,
+.team-img,
+.footer{
   flex-direction: column;
     align-items: center;
     
+}
+.footer{
+    text-align: left;
+}
+.text-align-left{
+    text-align: left;
 }
 .running-start{
     width:366px;
