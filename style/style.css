@@ -292,11 +292,71 @@ color:white;
 
 .img-path{
     width:100%;
-
+color:rgba(255, 255, 255, 0.5);
 }
 
+/* bmi section */
+.bmi-section{
+    width:50%;
+    margin:0 auto;
+    color:white;
+}
+.bmi-section p{
+    
+}
+.bmi-cal{
+    font-size:48px;
+    font-weight:900;
+    margin-bottom:15px;
+}
+
+table,th,td{
+    border:1px solid rgba(255, 255, 255, 0.5);
+    color:rgba(255, 255, 255, 0.5);
+   
+}
+table{
+    width:310px;
+    height:250px;
+    margin-top:50px;
+}
+.table h2{
+   /* margin-bottom:52px; */
+}
+.table h2 ,th{
+    
+    color:white;
+}
+.calculate{
+    color:white;
+}
+.table-main{
+    width:80%;
+    display:flex;
+    margin:0 auto;
+    justify-content: space-evenly;
+    gap:170px;
+    margin-top:160px;
+    align-items: baseline;
+}
+.your-bmi{
+    font-size:48px;
+}
+.calculate p{
+    color:rgba(255, 255, 255, 0.5);
 
 
+}
+input{
+    width:280px;
+    height:50px;
+    border-radius:5px;
+    background: rgba(255, 255, 255, 0.1);
+    margin-top:5px;
+}
+.input-big{
+    width:570px;
+}
 
  /* 
 responsive media query for small device */
@@ -311,7 +371,8 @@ responsive media query for small device */
 .banner-img,
 .change-habits-child,
 .running-section,
-.challenge-image-section{
+.challenge-image-section,
+.table-main{
   flex-direction: column;
     align-items: center;
     
@@ -347,6 +408,9 @@ display:none;
 }
 .exercise-6{
     display:none;
+}
+.input-big{
+    width:280px;
 }
 }
 
